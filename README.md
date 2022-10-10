@@ -15,26 +15,21 @@
 ## Library
 * 로그인 화면: BEMCheckBox, DropDown
 * 시간표: Elliotable
-* 게시판: AZSClient
+* 게시판: AZSClient, Loaf
 * 주변 상점: Cosmos, Loaf
 * 로그인: KeychainSwift
 * RxSwift: Action, NSObject+Rx, RxCocoa, RxDataSources, RxKeyboard, RxSwift
-* 네트워킹: Moya/RxSwift, RxAlamofire
+* 네트워킹: Moya/RxSwift
 
 ## Implementations
 #### 제가 담당했던 게시판 기능 및 강의평가 작성 기능 구현 사항입니다.
+* RxMoya를 이용한 네트워크 요청(게시글, 댓글, 강의평가)
 * 게시글 작성, 수정, 삭제 기능
-* 댓글 작성 기능
 * 강의평가 작성, 수정, 삭제 기능
 * 게시글 및 강의평가 필터링 기능
-* RxMoya를 이용한 네트워크 요청(게시글, 댓글, 강의평가)
+* 댓글 작성 기능
 
 ## App Screenshot
-#### 제가 담당한 게시글, 댓글, 강의평가 관련 화면입니다.
-### 1. Search & Filtering
-![Filtering_](https://user-images.githubusercontent.com/79038724/164055173-c7e4cd61-ea5f-4109-b1b9-9676106dd01b.gif)
-
-### 2. Review
-![Review_](https://user-images.githubusercontent.com/79038724/164056196-acfc0a50-45a4-4d47-9519-44f5a60ffea5.gif)
+#### 현재 서버를 지원받고 있지 않아 앱 구동 영상을 확인할 수 없습니다.
 
 
